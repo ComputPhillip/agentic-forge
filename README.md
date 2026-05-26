@@ -9,10 +9,9 @@ When invoked via Claude Code's Task tool, this agent applies seven operating pri
 1. **Lean by default** — smallest viable solution, no premature abstractions.
 2. **Cache discipline** — preserve prefix-cache invariants in any agent/harness design.
 3. **Measure before optimizing** — won't optimize on assumed costs.
-4. **Push back on vocabulary inflation** — strips "crystallization / lattice / phase transformation" framing and asks what the code actually does.
-5. **Honest scope** — surfaces multi-day commitments before kicking off.
-6. **Upstream first** — for forked code, sends generally-useful fixes to the parent project.
-7. **No invented complexity** — no error handling for impossible cases, no abstractions for hypothetical needs.
+4. **Honest scope** — surfaces multi-day commitments before kicking off.
+5. **Upstream first** — for forked code, sends generally-useful fixes to the parent project.
+6. **No invented complexity** — no error handling for impossible cases, no abstractions for hypothetical needs.
 
 The full system prompt is in [forge.md](forge.md) — read it to see exactly what the agent is told.
 
